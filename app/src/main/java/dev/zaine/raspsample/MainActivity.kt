@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //Generate sign hash key
+        //Generate sign hash key for debugging.
         //Log.i("Certificate", CertificateGenerator.computeSigningCertificateHash(this))
         enableEdgeToEdge()
         setContent {
