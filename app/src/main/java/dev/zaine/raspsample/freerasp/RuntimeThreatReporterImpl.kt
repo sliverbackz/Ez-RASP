@@ -21,13 +21,13 @@ class RuntimeThreatReporterImpl(
          * Add watcher mail according to the Talsec requirement
          * For Alerts and Reports
          */
-        private const val watcherMail = "yourmail"
+        private const val watcherMail = "your-email@example.com"
 
         /**
          * Just place your production built package name in expectedPackageName
          *  Don\'t use Context.getPackageName!
          */
-        private val expectedProdPackageName = "dev.zaine.raspsample"
+        private val expectedProdPackageName = "your.package.name"
 
 
         /**
@@ -36,8 +36,8 @@ class RuntimeThreatReporterImpl(
          */
         private val expectedSigningCertificateHashBase64 =
             arrayOf(
-                "vmLKgSsWh2f0CSm2+jnbnzoGY+OB0u6xbKAMDABvJuk=", // Using CertificateGenerator
-                "vmLKgSsWh2f0CSm2+jnbnzoGY+OB0u6xbKAMDABvJuk=" // PlayStore Signing Certificate Hash
+                "", 
+                "" 
             )
 
         /**
