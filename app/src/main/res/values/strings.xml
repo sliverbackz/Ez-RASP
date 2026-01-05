@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ez RASP</string>
+    <string name="lbl_close">Close</string>
+    <string name="title_threat_detected" translatable="false">Threats Detected!</string>
+    <string name="message_threat_detected" translatable="false">The following threat %1$s on your device. The detected threats access on your device creates a security risk and vulnerability. This may leave you open to theft. Please, close the application.</string>
+</resources>
