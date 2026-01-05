@@ -27,7 +27,7 @@ class RuntimeThreatReporterImpl(
          * Just place your production built package name in expectedPackageName
          *  Don\'t use Context.getPackageName!
          */
-        private val expectedProdPackageName = "your.package.name"
+        private val expectedProdPackageName = "dev.zaine.raspsample"
 
 
         /**
@@ -36,8 +36,8 @@ class RuntimeThreatReporterImpl(
          */
         private val expectedSigningCertificateHashBase64 =
             arrayOf(
-                "", 
-                "" 
+                "vmLKgSsWh2f0CSm2+jnbnzoGY+OB0u6xbKAMDABvJuk=", //for debugging
+                "vmLKgSsWh2f0CSm2+jnbnzoGY+OB0u6xbKAMDABvJuk=" //for playstore, you must replace this.
             )
 
         /**
